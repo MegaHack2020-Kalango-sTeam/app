@@ -3,7 +3,7 @@ const express = require('express');
 //Importando mongoose pra mongoDB.
 const mongoose = require('mongoose');
 //Importando as rotas do app.
-const routes = require ('/routes');
+const routes = require ('/rotas/rotas');
 
 //Colocando nosso APP para utilizar o Express.
 const app = express();
