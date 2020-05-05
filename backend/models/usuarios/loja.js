@@ -23,6 +23,12 @@ const LojaSchema = new mongoose.Schema({
         minlength: 8,
         select:false
     },
+    telefone: {
+        type:Number,
+        required:true,
+        minlength: 11,
+        select:true
+    },
     senhaTokenReset: {
         type:String,
         select: false
